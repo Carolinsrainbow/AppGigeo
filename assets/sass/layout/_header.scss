@@ -1,0 +1,29 @@
+.fondo{
+  height: 100px;
+  background-image: url('../img/image-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 4rem;
+  margin-bottom: 1rem;
+}
+
+.yuki{
+  width: 4rem;
+  height:4rem;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 576px) {
+  .buttons{
+    display: none;
+  }
+  }
+
+@media only screen and (max-width: 576px) {
+  .container{
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  }
